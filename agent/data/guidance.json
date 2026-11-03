@@ -1,0 +1,125 @@
+{
+  "version": "2026-11-01",
+  "note": "Curated health guidance for NALAM AI. All items verified against public health authority sources. Read date recorded per item. Model may only cite ids listed here.",
+  "sources": {
+    "WHO-MED":  "World Health Organization – Medicine Information, https://www.who.int/medicines, read 2026-11-01",
+    "MOHFW":    "India Ministry of Health & Family Welfare – Patient Safety Guidelines, https://main.mohfw.gov.in, read 2026-11-01",
+    "NHP":      "National Health Portal of India, https://www.nhp.gov.in, read 2026-11-01",
+    "AIIMS":    "AIIMS Patient Education Material, https://www.aiims.edu/en/departments-and-centres/medical-departments, read 2026-11-01",
+    "TNHEALTH": "Tamil Nadu Health & Family Welfare Department, https://www.tnhealth.tn.gov.in, read 2026-11-01",
+    "108EMG":   "Emergency Medical Service India – 108 ambulance, https://108ambulance.in, read 2026-11-01",
+    "CDC-PREV": "CDC – Preventive Care Guidelines (adapted for India context), https://www.cdc.gov/prevention, read 2026-11-01"
+  },
+  "items": [
+    {
+      "id": "G-RX-VERIFY",
+      "source": "WHO-MED",
+      "text": "Always verify prescription instructions—medicine name, dose, frequency, and duration—with the dispensing pharmacist before taking any medicine. Never change the dose without consulting the prescribing doctor."
+    },
+    {
+      "id": "G-RX-NOCHANGE",
+      "source": "WHO-MED",
+      "text": "Do not stop, skip, or double a prescribed medicine without explicit instruction from your doctor. Stopping antibiotics early or doubling a dose can cause serious harm."
+    },
+    {
+      "id": "G-RX-SIDEEFFECT",
+      "source": "MOHFW",
+      "text": "Report any unexpected symptom after starting a new medicine—rash, swelling, difficulty breathing, or fainting—to a doctor or pharmacist immediately."
+    },
+    {
+      "id": "G-RX-STORAGE",
+      "source": "WHO-MED",
+      "text": "Store medicines as directed on the label (cool, dry, away from sunlight). Many liquid medicines and insulin require refrigeration. Discard medicines past their expiry date."
+    },
+    {
+      "id": "G-EMG-CHEST",
+      "source": "108EMG",
+      "text": "Chest pain with sweating, breathlessness, or pain radiating to the arm or jaw is a medical emergency. Call 108 (ambulance) in India immediately. Do not wait or drive yourself."
+    },
+    {
+      "id": "G-EMG-STROKE",
+      "source": "108EMG",
+      "text": "Sudden face drooping, arm weakness, slurred speech (FAST signs) indicate a possible stroke. Call 108 immediately. Time-sensitive: every minute matters."
+    },
+    {
+      "id": "G-EMG-BREATHE",
+      "source": "108EMG",
+      "text": "Severe difficulty breathing—unable to speak in full sentences, bluish lips, or choking—is a medical emergency. Call 108 and stay with the person."
+    },
+    {
+      "id": "G-EMG-BLEED",
+      "source": "108EMG",
+      "text": "Uncontrolled severe bleeding requires immediate emergency help. Apply firm pressure with a clean cloth and call 108. Do not remove the cloth even if it soaks through."
+    },
+    {
+      "id": "G-EMG-POISON",
+      "source": "108EMG",
+      "text": "If someone has swallowed a harmful substance or medicine overdose, call India Poison Control (1800-116-117) or 108 ambulance immediately. Do not induce vomiting unless instructed by medical staff."
+    },
+    {
+      "id": "G-EMG-SEIZURE",
+      "source": "108EMG",
+      "text": "During a seizure: clear the area, do not restrain the person, turn them on their side, time the seizure. Call 108 if it lasts more than 5 minutes or the person does not regain consciousness."
+    },
+    {
+      "id": "G-EMG-UNCONS",
+      "source": "108EMG",
+      "text": "An unconscious person who does not respond to voice or touch requires immediate emergency help. Call 108. Check for breathing and start CPR if trained and if the person is not breathing."
+    },
+    {
+      "id": "G-PREV-BP",
+      "source": "NHP",
+      "text": "High blood pressure (hypertension) often has no symptoms. Adults should check blood pressure at least once a year. Lifestyle changes: reduce salt, exercise 30 minutes most days, avoid smoking."
+    },
+    {
+      "id": "G-PREV-DIABETES",
+      "source": "NHP",
+      "text": "Type 2 diabetes risk is reduced with regular physical activity, healthy diet (less refined sugar, more vegetables), and maintaining healthy weight. Fasting blood sugar should be checked annually after age 30."
+    },
+    {
+      "id": "G-PREV-DENTAL",
+      "source": "AIIMS",
+      "text": "Brush teeth twice daily with fluoride toothpaste. Visit a dentist at least once a year. Untreated tooth decay can lead to infections that spread to the jaw and beyond."
+    },
+    {
+      "id": "G-PREV-VISION",
+      "source": "AIIMS",
+      "text": "Get an eye check-up every 2 years, or annually if diabetic or over 60. Blurred vision, sudden vision loss, or eye pain need prompt medical attention."
+    },
+    {
+      "id": "G-PREV-VACCINE",
+      "source": "MOHFW",
+      "text": "Follow India's Universal Immunisation Programme (UIP) schedule for children. Adults should keep tetanus boosters up to date and consider flu vaccine annually, especially if elderly or diabetic."
+    },
+    {
+      "id": "G-FACILITY-TN-EMG",
+      "source": "TNHEALTH",
+      "text": "Tamil Nadu: Dial 104 for the Health Helpline (free advice, nearest facility). Dial 108 for emergency ambulance. Government Primary Health Centres (PHCs) provide free outpatient care Monday–Saturday 8 AM–2 PM."
+    },
+    {
+      "id": "G-FACILITY-NATION",
+      "source": "NHP",
+      "text": "National health helpline: 1800-180-1104 (toll-free). Ayushman Bharat – PM-JAY covers up to ₹5 lakh per family per year for hospitalisation at empanelled hospitals. Beneficiaries can call 14555 to verify eligibility."
+    },
+    {
+      "id": "G-CHILD-FEVER",
+      "source": "NHP",
+      "text": "For children under 5: fever above 38.5°C lasting more than 2 days, or any fever in a child under 3 months, requires prompt medical evaluation. Do not give aspirin to children."
+    },
+    {
+      "id": "G-MATERNAL",
+      "source": "MOHFW",
+      "text": "Pregnant women should attend at least 4 antenatal check-ups. Severe headache, visual disturbance, or swelling of hands/face during pregnancy can signal pre-eclampsia—seek medical care immediately."
+    },
+    {
+      "id": "G-MENTAL",
+      "source": "NHP",
+      "text": "Mental health: iCall helpline 9152987821. NIMHANS helpline 080-46110007. Feelings of hopelessness, inability to function, or thoughts of self-harm deserve medical attention, not shame."
+    },
+    {
+      "id": "G-PHARMA-ROLE",
+      "source": "WHO-MED",
+      "text": "A licensed pharmacist can explain how to take your medicine, check for interactions between multiple medicines, and advise on safe over-the-counter options. They are a first point of contact for medicine questions."
+    }
+  ]
+}

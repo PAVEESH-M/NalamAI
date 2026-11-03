@@ -1,0 +1,32 @@
+# NALAM AI – Python dependencies
+# Run: python -m venv .venv && .venv\Scripts\pip install -r requirements.txt
+# Pins tested 2026-11-01 on Windows (Python 3.12), mock mode.
+
+# Strands Agents SDK (hackathon kit)
+strands-agents==1.62.0
+strands-agents-tools==0.8.10
+strands-agents-evals==1.7.0
+strands-harness==0.3.2
+strands-shell==0.5.0
+
+# AWS
+boto3==1.43.118
+
+# Data validation
+pydantic==2.14.1
+
+# Backend API
+fastapi==0.115.6
+uvicorn[standard]==0.34.2
+python-multipart==0.0.20
+aiofiles==24.1.0
+
+# OCR (optional — falls back to mock if Tesseract binary not installed)
+pytesseract==0.3.13
+Pillow==11.2.1
+
+# Testing
+pytest==8.3.4
+
+# Demo video (ss video)
+playwright==1.63.0
